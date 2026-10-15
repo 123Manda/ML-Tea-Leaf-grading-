@@ -1,0 +1,4 @@
+class,total_images,train_images,validation_images,test_images
+Best,560,392,84,84
+Below_Best,550,385,82,83
+Poor,546,382,81,83

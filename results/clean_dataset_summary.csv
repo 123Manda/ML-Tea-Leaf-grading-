@@ -1,0 +1,4 @@
+class,raw_images,augmented_removed,duplicate_copies_removed,invalid_removed,unique_original_images
+Best,901,110,231,0,560
+Below_Best,866,0,316,0,550
+Poor,594,0,48,0,546

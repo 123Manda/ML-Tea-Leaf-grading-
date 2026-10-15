@@ -1,0 +1,19 @@
+{
+    "image_name": "best_0007.png",
+    "predicted_grade": "Best",
+    "confidence": 0.998731,
+    "confidence_percent": 99.87,
+    "probabilities": {
+        "Below_Best": 0.000967,
+        "Best": 0.998731,
+        "Poor": 0.000302
+    },
+    "segmentation_method": "primary_hsv",
+    "leaf_measurements": {
+        "length_px": 546.38,
+        "width_px": 255.04,
+        "area_px2": 86669.5,
+        "perimeter_px": 1460.83,
+        "aspect_ratio": 2.1423
+    }
+}

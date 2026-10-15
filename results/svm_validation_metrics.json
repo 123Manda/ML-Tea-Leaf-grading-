@@ -1,0 +1,16 @@
+{
+    "model": "SVM",
+    "kernel": "rbf",
+    "C": 1.0,
+    "gamma": "scale",
+    "class_weight": "balanced",
+    "random_seed": 42,
+    "training_samples": 1159,
+    "validation_samples": 247,
+    "feature_count": 40,
+    "validation_accuracy": 0.8704453441295547,
+    "validation_macro_precision": 0.8729064145730813,
+    "validation_macro_recall": 0.8707324242554595,
+    "validation_macro_f1": 0.8715426676632889,
+    "validation_weighted_f1": 0.8710169871295806
+}

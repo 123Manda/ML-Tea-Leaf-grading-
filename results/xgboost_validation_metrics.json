@@ -1,0 +1,17 @@
+{
+    "model": "XGBoost",
+    "random_seed": 42,
+    "training_samples": 1159,
+    "validation_samples": 247,
+    "feature_count": 40,
+    "n_estimators": 500,
+    "learning_rate": 0.05,
+    "max_depth": 5,
+    "subsample": 0.85,
+    "colsample_bytree": 0.85,
+    "validation_accuracy": 0.9109311740890689,
+    "validation_macro_precision": 0.9134541062801933,
+    "validation_macro_recall": 0.9109024820406934,
+    "validation_macro_f1": 0.9109711367742385,
+    "validation_weighted_f1": 0.9106291906580498
+}

@@ -1,0 +1,1 @@
+class,file_name,file_path,extension,valid_image,width,height,channels_mode,file_size_kb,sha256,is_augmented,original_family,error,exact_duplicate,cross_class_duplicate,low_resolution,audit_status

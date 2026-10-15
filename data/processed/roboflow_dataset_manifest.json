@@ -1,0 +1,20 @@
+{
+  "workspace": "mandara-pabasara",
+  "project": "smart-tea-leaf-grading",
+  "version": 1,
+  "task_type": "single-label-classification",
+  "classes": [
+    "Best",
+    "Below_Best",
+    "Poor"
+  ],
+  "dataset": {
+    "total_images": 1656,
+    "train": 1159,
+    "validation": 247,
+    "test": 250
+  },
+  "preprocessing": "none",
+  "augmentation": "none",
+  "usage": "Dataset organization, class verification, split management and versioning"
+}

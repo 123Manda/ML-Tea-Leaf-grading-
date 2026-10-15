@@ -1,0 +1,15 @@
+{
+    "model": "Random Forest",
+    "n_estimators": 500,
+    "max_features": "sqrt",
+    "class_weight": "balanced",
+    "random_seed": 42,
+    "training_samples": 1159,
+    "validation_samples": 247,
+    "feature_count": 40,
+    "validation_accuracy": 0.8866396761133604,
+    "validation_macro_precision": 0.8886915140947399,
+    "validation_macro_recall": 0.8865588391333649,
+    "validation_macro_f1": 0.8861301639488817,
+    "validation_weighted_f1": 0.8858065200676164
+}

@@ -1,0 +1,10 @@
+{
+    "selected_model": "XGBoost",
+    "test_samples": 250,
+    "feature_count": 40,
+    "test_accuracy": 0.892,
+    "test_macro_precision": 0.8968272581474296,
+    "test_macro_recall": 0.89190093708166,
+    "test_macro_f1": 0.8904089961578209,
+    "test_weighted_f1": 0.89032758616189
+}

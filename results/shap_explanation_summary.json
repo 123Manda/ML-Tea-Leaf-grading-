@@ -1,0 +1,121 @@
+{
+    "model": "XGBoost",
+    "explanation_method": "SHAP TreeExplainer",
+    "test_samples": 250,
+    "feature_count": 40,
+    "classes": [
+        "Below_Best",
+        "Best",
+        "Poor"
+    ],
+    "top_10_global_features": [
+        {
+            "feature": "yellow_brown_ratio",
+            "mean_abs_shap": 1.1827305555343628
+        },
+        {
+            "feature": "std_h",
+            "mean_abs_shap": 0.652935266494751
+        },
+        {
+            "feature": "mean_h",
+            "mean_abs_shap": 0.3936794400215149
+        },
+        {
+            "feature": "laplacian_variance",
+            "mean_abs_shap": 0.3504587411880493
+        },
+        {
+            "feature": "mean_lab_a",
+            "mean_abs_shap": 0.30840829014778137
+        },
+        {
+            "feature": "green_ratio",
+            "mean_abs_shap": 0.2537333369255066
+        },
+        {
+            "feature": "std_lab_b",
+            "mean_abs_shap": 0.2456354945898056
+        },
+        {
+            "feature": "glcm_correlation",
+            "mean_abs_shap": 0.23826377093791962
+        },
+        {
+            "feature": "mean_s",
+            "mean_abs_shap": 0.21592745184898376
+        },
+        {
+            "feature": "circularity",
+            "mean_abs_shap": 0.2054225504398346
+        }
+    ],
+    "top_5_features_by_class": {
+        "Below_Best": [
+            {
+                "feature": "laplacian_variance",
+                "mean_abs_shap": 0.6373032927513123
+            },
+            {
+                "feature": "std_h",
+                "mean_abs_shap": 0.5953525304794312
+            },
+            {
+                "feature": "mean_h",
+                "mean_abs_shap": 0.48061245679855347
+            },
+            {
+                "feature": "mean_s",
+                "mean_abs_shap": 0.39430493116378784
+            },
+            {
+                "feature": "aspect_ratio",
+                "mean_abs_shap": 0.2981783449649811
+            }
+        ],
+        "Best": [
+            {
+                "feature": "yellow_brown_ratio",
+                "mean_abs_shap": 1.3295154571533203
+            },
+            {
+                "feature": "std_h",
+                "mean_abs_shap": 1.0975507497787476
+            },
+            {
+                "feature": "mean_lab_a",
+                "mean_abs_shap": 0.42366641759872437
+            },
+            {
+                "feature": "std_lab_a",
+                "mean_abs_shap": 0.4117724895477295
+            },
+            {
+                "feature": "std_lab_b",
+                "mean_abs_shap": 0.39522820711135864
+            }
+        ],
+        "Poor": [
+            {
+                "feature": "yellow_brown_ratio",
+                "mean_abs_shap": 1.9702632427215576
+            },
+            {
+                "feature": "green_ratio",
+                "mean_abs_shap": 0.5199794769287109
+            },
+            {
+                "feature": "mean_lab_a",
+                "mean_abs_shap": 0.46633240580558777
+            },
+            {
+                "feature": "mean_h",
+                "mean_abs_shap": 0.3906443417072296
+            },
+            {
+                "feature": "mean_b",
+                "mean_abs_shap": 0.3668407201766968
+            }
+        ]
+    }
+}

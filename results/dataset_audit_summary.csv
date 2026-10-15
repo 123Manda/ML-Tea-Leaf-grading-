@@ -1,0 +1,4 @@
+class,total_files,valid_images,corrupt_images,augmented_images,exact_duplicate_files,cross_class_duplicates,low_resolution_images,audit_ok_images
+Best,901,901,0,110,508,0,0,331
+Below_Best,866,866,0,0,537,0,0,329
+Poor,594,594,0,0,96,0,0,498

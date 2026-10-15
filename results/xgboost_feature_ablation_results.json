@@ -1,0 +1,72 @@
+[
+    {
+        "rank": 1,
+        "feature_set": "All Features",
+        "feature_count": 40,
+        "accuracy_percent": 91.09311740890689,
+        "macro_precision": 0.9134541062801933,
+        "macro_recall": 0.9109024820406934,
+        "macro_f1": 0.9109711367742385,
+        "weighted_f1": 0.9106291906580498
+    },
+    {
+        "rank": 2,
+        "feature_set": "Color + Shape/Size",
+        "feature_count": 32,
+        "accuracy_percent": 89.87854251012146,
+        "macro_precision": 0.9006779905514083,
+        "macro_recall": 0.8988507477667369,
+        "macro_f1": 0.8991858237547893,
+        "weighted_f1": 0.8988150914421332
+    },
+    {
+        "rank": 3,
+        "feature_set": "Color + Texture",
+        "feature_count": 30,
+        "accuracy_percent": 89.06882591093117,
+        "macro_precision": 0.8919278252611585,
+        "macro_recall": 0.8907708521529659,
+        "macro_f1": 0.8903294802233231,
+        "weighted_f1": 0.8899517780241883
+    },
+    {
+        "rank": 4,
+        "feature_set": "Color Only",
+        "feature_count": 22,
+        "accuracy_percent": 88.25910931174089,
+        "macro_precision": 0.8833794887327939,
+        "macro_recall": 0.8829813165856527,
+        "macro_f1": 0.8825337643268615,
+        "weighted_f1": 0.881963415101187
+    },
+    {
+        "rank": 5,
+        "feature_set": "Shape/Size + Texture",
+        "feature_count": 18,
+        "accuracy_percent": 77.7327935222672,
+        "macro_precision": 0.7793495934959349,
+        "macro_recall": 0.7785843334623822,
+        "macro_f1": 0.7776582848108138,
+        "weighted_f1": 0.7767387236631136
+    },
+    {
+        "rank": 6,
+        "feature_set": "Shape + Size Only",
+        "feature_count": 10,
+        "accuracy_percent": 65.9919028340081,
+        "macro_precision": 0.6583998196979941,
+        "macro_recall": 0.6613111369208929,
+        "macro_f1": 0.6589019170724804,
+        "weighted_f1": 0.6578464297961715
+    },
+    {
+        "rank": 7,
+        "feature_set": "Texture Only",
+        "feature_count": 8,
+        "accuracy_percent": 63.56275303643725,
+        "macro_precision": 0.6350339556289192,
+        "macro_recall": 0.6363867739206492,
+        "macro_f1": 0.6353627187687355,
+        "weighted_f1": 0.6348330955774615
+    }
+]
